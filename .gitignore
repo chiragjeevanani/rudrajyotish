@@ -4,8 +4,6 @@ backend/node_modules/
 frontend/node_modules/
 
 # Environment files
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -25,7 +23,6 @@ lerna-debug.log*
 dist/
 dist-ssr/
 build/
-.vscode/*
 !.vscode/extensions.json
 .idea/
 .DS_Store
@@ -39,3 +36,7 @@ build/
 uploads/
 backend/uploads/
 !backend/uploads/defaults/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
